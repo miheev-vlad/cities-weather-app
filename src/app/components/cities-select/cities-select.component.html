@@ -1,1 +1,14 @@
-<p>cities-select works!</p>
+<div class="select-wrapper">
+  <span class="label">Выберите город</span>
+  <div>
+    <ul>
+      <li
+        *ngFor="let city of cities"
+        [class.active]="isCurrentCity(city)"
+        (click)="setCurrentCity(city)"
+      >
+        <span>{{ city.name }}</span>
+      </li>
+    </ul>
+  </div>
+</div>

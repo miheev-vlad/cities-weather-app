@@ -1,0 +1,12 @@
+.app-title {
+  padding: 20px 20px 20px 140px;
+  border-bottom: 1px solid var(--grey);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+  .app-title {
+    padding: 15px;
+  }
+}

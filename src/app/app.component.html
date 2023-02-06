@@ -1,5 +1,20 @@
-<div>
-  <app-header> </app-header>
-  <app-cities-select></app-cities-select>
-  <app-weather-info></app-weather-info>
+<div class="container">
+  <app-header class="header"></app-header>
+  <app-cities-select
+    class="select"
+    (selectCityEvent)="onSelectCity($event)"
+  ></app-cities-select>
+  <app-weather-info
+    class="info"
+    *ngIf="weatherInfo | async as weatherInfoData; else processing"
+    [weatherInfoData]="weatherInfoData"
+    [currentCityName]="currentCityName"
+  ></app-weather-info>
+  <ng-template #processing>
+    <div class="info">
+      <div class="loader-wrapper">
+        <app-loader></app-loader>
+      </div>
+    </div>
+  </ng-template>
 </div>

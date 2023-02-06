@@ -1,27 +1,30 @@
-# CitiesWeatherApp
+Направляем Вам тестовое задание. Практика показывает, что на выполнение задания уходит от 3 до 5 часов. Тестовое задание будет проверяться формально на соблюдение всех пунктов.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
+## Тестовое задание
 
-## Development server
+Необходимо написать одностраничное SPA приложение с информацией о погоде на Angular 10.
+Города по умолчанию: Москва, Санкт-Петербугр, Екатеринбург, Владивосток.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Для получения данных о погоде использовать openweathermap.org. Все надписи и города должны быть на русском языке.
 
-## Code scaffolding
+![The San Juan Mountains are beautiful!]( https://media.tproger.ru/uploads/2017/04/Final.png )
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Приложение должно работать по следующему сценарию:
 
-## Build
+Пользователь щёлкает на кнопку города. Справа без перезагрузки страницы отображается информация о погоде: текущая температура, скорость ветра.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. В корне проекта создать файл README.MD с текстом тестового задания в кодировке UTF-8
+2. Проект выложить на github.com (другие ресурсы не рассматриваются).
+3. Ссылку на проект присылайте на job@eurekabpo.ru
+4. Срок выполнения задания 7 дней начиная с завтрашнего дня.
 
-## Running unit tests
+После отбора результатов тестового задания мы пригласим наиболее сильных кандидатов на собеседование.
+Уверены, что вы справитесь быстрее срока. Обычно на это задание кандидаты тратят от 3 до 5 часов. Будет жаль, если вы не используете возможность проявить себя, и мы не увидим Вас на следующем этапе отбора.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ 
 
-## Running end-to-end tests
+С уважением, команда Эврика.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Компания Эврика Би Пи О | 610000, г.Киров,Воровского, д.78а | Tel:8 (800) 500-13-26

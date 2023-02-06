@@ -1,1 +1,15 @@
-<p>weather-info works!</p>
+<div class="info-wrapper">
+  <span class="current-city-name"
+    >{{ currentCityName }} / Информация о погоде</span
+  >
+  <div class="info">
+    <p>
+      <span>Tекущая температура: </span
+      ><span>{{ weatherInfoData.main.temp }} &#8451;</span>
+    </p>
+    <p>
+      <span>Cкорость ветра: </span
+      ><span>{{ weatherInfoData.wind.speed }} м/с</span>
+    </p>
+  </div>
+</div>
